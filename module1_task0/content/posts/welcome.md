@@ -1,1 +1,1 @@
-title = 'Welcome to Awesome Inc.'
+Welcome to Awesome Inc.
