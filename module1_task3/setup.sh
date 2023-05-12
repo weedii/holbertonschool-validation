@@ -1,1 +1,1 @@
-sudo apt update && apt install -y hugo make
+sudo apt update && apt-get install -y hugo make
