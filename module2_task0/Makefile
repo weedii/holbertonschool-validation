@@ -17,7 +17,7 @@ run: ## Run the application in the background
 	./awesome-api > ./awesome-api.log 2>&1 &
 
 stop: ## Stop the application
-	pkill awesome-api
+	kill "$(pgrep awesome-api)"
 
 clean: stop ## Stop the application and clean up
 	rm -f awesome-api awesome-api.log
